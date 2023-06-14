@@ -35,7 +35,7 @@ with col1:
 with col2:
     col2.title("Spiros Gkogkas")
     st.write(DESCRIPTION)
-    with open("./assets/spyrosgkogkasCV.pdf", "rb") as f:
+    with open("./assets/CV - Spiros Gkogkas.pdf", "rb") as f:
         cv = f.read()        
     st.download_button("📄 Download Resume", data=cv, file_name="SpirosGkogkasCV.pdf", mime="application/pdf")
     st.write(f":email: {EMAIL}")
