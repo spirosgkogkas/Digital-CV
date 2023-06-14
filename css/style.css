@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+* {font-family: 'Readex Pro';}
+.stVideo {width: 250px !important}
+.css-15zrgzn.eqr7zpz2 {display: None}
+.css-e370rw.e15ugz7a1 {display: None}
+.css-b3z5c9.e1ewe7hr10:hover {
+    color:#d33682;
+    border-color:#d33682;
+}
+
+header {visibility: hidden}
+footer {visibility: hidden}
+MainMenu {display: None}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+.myclass123{
+    color: gray !important;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.myclass123:hover {
+    font-style: italic;
+    color: #d33682 !important;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
