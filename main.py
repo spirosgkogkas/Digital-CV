@@ -21,7 +21,13 @@ SOCIAL_MEDIA = {
 ATM_DESCRIPTION = """
     I developed a C++ ATM Simulation Application emulating an Automated Teller Machine. Users can perform banking operations with secure authentication, error handling, and cross-platform compatibility. Demonstrates proficiency in C++, OOP, and standard libraries.
 """
-git = "https://github.com/spirosgkogkas/Bank"
+AUTOMATION_DESCRIPTION = """
+    Designed and implemented an automated data extraction and file generation system using Python. Leveraged SFTP for secure file transfer and scheduled the automation process. Enabled seamless conversion of database queries into CSV files, ensuring efficient data analysis and secure file transfer.
+"""
+PROJECTS = {
+    1: "https://github.com/spirosgkogkas/ATM-Simulator",
+    2: "https://github.com/spirosgkogkas/automation_tool"
+}
 
 with open(css_file, "r") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -52,13 +58,16 @@ st.subheader("Experience")
 col3, col4 = st.columns(2, gap="small")
 with col3:
     # st.write(f"**ATM Simulator** ([Source Code]({git}))")
-    st.write(f"**ATM Simulator** (<a href='{git}' class='myclass123' >Source Code</a>)", unsafe_allow_html=True)
-
+    st.write(f"**ATM Simulator** (<a href='{PROJECTS[1]}' class='myclass123' >Source Code</a>)", unsafe_allow_html=True)
     st.write(ATM_DESCRIPTION)
     # with open("C:/Users/spiro/Downloads/Malware Development II_ Process Injection.mp4", "rb") as f:
     #     video = f.read()
     # st.video(video, format="video/mp4")
 
+with col4:
+    st.write(f"**DB-CSV Automation** (<a href='{PROJECTS[2]}' class='myclass123' >Source Code</a>)", unsafe_allow_html=True)
+    st.write(AUTOMATION_DESCRIPTION)
+st.progress(100)
 # with col4:
 #     st.write("**ATM Simulator**")
 #     st.write(ATM_DESCRIPTION)
