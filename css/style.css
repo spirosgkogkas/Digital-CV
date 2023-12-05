@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
-* {font-family: 'Readex Pro';}
+* {
+	font-family: 'Readex Pro';
+	font-color: white;
+}
 .stVideo {width: 250px !important}
 .css-15zrgzn.eqr7zpz2 {display: None}
 .css-e370rw.e15ugz7a1 {display: None}
@@ -40,8 +43,4 @@ strong {color: gray}
 
 .css-fg4pbf {
   background-color: #1E2127 !important;
-}
-
-.css-ffhzg2 {
-	color: white !important;
 }
