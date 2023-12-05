@@ -39,5 +39,5 @@ a:hover {
 strong {color: gray}
 
 body {
-  background-color: #1E2127;
+  background-color: #1E2127 !important;
 }
